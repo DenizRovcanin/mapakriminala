@@ -1,1 +1,8 @@
 /*SCSS File*/
+
+@mixin font-size($size) {
+  font-size: $size;
+}
+head,body {
+   @include font-size(14px);
+}
