@@ -3,6 +3,12 @@
 @mixin font-size($size) {
   font-size: $size;
 }
+@mixin color($mFontColor) {
+  color: $mFontColor;
+}
 head,body {
    @include font-size(14px);
+}
+p {
+   @include color(#6d6d6d);
 }
